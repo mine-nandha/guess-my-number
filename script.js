@@ -22,6 +22,7 @@ guessButton.addEventListener("click", () => {
     score.textContent = parseInt(score.textContent) - 1;
     if (number.value == generatedNumber) {
       message.textContent = "You are correct!🎉";
+      document.body.style.backgroundColor = "green";      
       hiddenNumber.textContent = generatedNumber;
       if (parseInt(score.textContent) > parseInt(highScore.textContent)) {
         highScore.textContent = score.textContent;

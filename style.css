@@ -75,7 +75,7 @@ body {
   font-size: large;
   font-family: inherit;
   margin: 10px;
-  background-color: black;
+  background-color: inherit;
   color: gainsboro;
   border-color: gainsboro;
 }
